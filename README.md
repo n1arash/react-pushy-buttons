@@ -36,7 +36,7 @@ import 'react-pushy-buttons/css/pushy-buttons'
 * https://github.com/iRaul
 
 
-#### React Component
+### React Component
 **Arash Khazaei**
 
 * https://twitter.com/Qorbati

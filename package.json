@@ -9,6 +9,9 @@
   "dependencies": {
     "react": "^15.5.4"
   },
+   "files": [
+    "css"
+  ],
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
