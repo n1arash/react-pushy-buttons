@@ -8,19 +8,30 @@
 Checkout the [Demo](https://iraul.github.io/pushy-buttons/) to see the buttons in action.
 
 ### Setup & Installation
-1. Download it.
-2. Include buttons in your website:
-
+```bash
+npm i -S react-pushy-buttons
+```
 
 ```javascript
 import Button from 'react-pushy-buttons';
-import 'react-pushy-buttons/css/pushy-buttons'
+import 'react-pushy-buttons/css/pushy-buttons.css'
 
 <!-- Blue Buttons -->
 <Button size="lg" color="blue">Button</Button>
 <Button size="df" color="blue">Button</Button>
 <Button size="md" color="blue">Button</Button>
 <Button size="sm" color="blue">Button</Button>
+
+<!-- Red Buttons -->
+<Button size="lg" color="red">Button</Button>
+<Button size="df" color="red">Button</Button>
+<Button size="md" color="red">Button</Button>
+<Button size="sm" color="red">Button</Button>
+<!-- Green Buttons -->
+<Button size="lg" color="green">Button</Button>
+<Button size="df" color="green">Button</Button>
+<Button size="md" color="green">Button</Button>
+<Button size="sm" color="green">Button</Button>
 ```
 ### Properties
 
