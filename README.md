@@ -11,47 +11,37 @@ Checkout the [Demo](https://iraul.github.io/pushy-buttons/) to see the buttons i
 1. Download it.
 2. Include buttons in your website:
 
-```html
 
-  <!-- Buttons Core -->
-  <link rel="stylesheet" href="css/pushy-buttons.css">
+```javascript
+import Button from 'react-pushy-buttons';
+import 'react-pushy-buttons/css/pushy-buttons'
 
-  <!-- Or -->
-
-  <!-- Minified Version -->
-  <link rel="stylesheet" href="css/pushy-buttons.min.css">
-```
-### Examples
-- There are 4 sizes and 3 colors available.
-- You can customize them in the `.scss` file if you want.
-
-```html
 <!-- Blue Buttons -->
-<button class="btn btn--lg btn--blue">Button</button>
-<button class="btn btn--df btn--blue">Button</button>
-<button class="btn btn--md btn--blue">Button</button>
-<button class="btn btn--sm btn--blue">Button</button>
-
-<!-- Green Buttons -->
-<button class="btn btn--lg btn--green">Button</button>
-<button class="btn btn--df btn--green">Button</button>
-<button class="btn btn--md btn--green">Button</button>
-<button class="btn btn--sm btn--green">Button</button>
-
-<!-- Red Buttons -->
-<button class="btn btn--lg btn--red">Button</button>
-<button class="btn btn--df btn--red">Button</button>
-<button class="btn btn--md btn--red">Button</button>
-<button class="btn btn--sm btn--red">Button</button>
+<Button size="lg" color="blue">Button</Button>
+<Button size="df" color="blue">Button</Button>
+<Button size="md" color="blue">Button</Button>
+<Button size="sm" color="blue">Button</Button>
 ```
-## Author
+### Properties
 
+- Color : [blue , green, red] -- default : blue
+- size : [lg, df, md, sm] -- default : md
+
+
+
+## Author
 **Raul Dronca**
 
 * https://twitter.com/raul_dronca
 * https://github.com/iRaul
 
+
+#### React Component
+**Arash Khazaei**
+
+* https://twitter.com/Qorbati
+* https://github.com/n1arash
+
 ## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-# react-pushy-buttons
