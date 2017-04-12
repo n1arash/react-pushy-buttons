@@ -1,21 +1,20 @@
 {
   "name": "react-pushy-buttons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Component For IRaul/Pushy-Buttons",
-  "main": "index.js",
+  "main": "./main.js",
   "repository": "https://github.com/n1arash/react-pushy-buttons",
   "author": "Arash Khazaei <0xclay@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^15.5.4"
   },
-   "files": [
+  "files": [
     "css"
   ],
   "scripts": {
     "build": "rollup -c rollup.config.js"
   },
-  "main": "./main.js",
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-latest": "^6.24.1",
